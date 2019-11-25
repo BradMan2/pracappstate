@@ -51,7 +51,6 @@ margin-top: 200px;
   padding: 10px;
   font-size: 16px;
   border: none;
-  margin-bottom: 10px;
 }
 
 .dropdown {
@@ -83,7 +82,9 @@ margin-top: 200px;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: lightGreen}
+.dropdown-content a:hover {background-color: lightGreen
+margin-bottom: 5px; 
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
